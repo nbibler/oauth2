@@ -5,7 +5,7 @@ require_relative 'lib/oauth2/version'
 
 Gem::Specification.new do |spec|
   spec.add_dependency 'faraday', ['>= 0.17.3', '< 3.0']
-  spec.add_dependency 'jwt', ['>= 1.0', '< 3.0']
+  spec.add_dependency 'jwt', '>= 1.0', '< 4.0'
   spec.add_dependency 'multi_xml', '~> 0.5'
   spec.add_dependency 'rack', ['>= 1.2', '< 3']
   spec.add_dependency 'rash_alt', ['>= 0.4', '< 1']
